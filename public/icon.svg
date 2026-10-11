@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a7ff2" />
+      <stop offset="50%" stop-color="#7b7ed8" />
+      <stop offset="100%" stop-color="#a475c7" />
+    </linearGradient>
+    <linearGradient id="glow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#grad)" />
+  <!-- Inner calm horizon and glowing pebble / breathing circle -->
+  <circle cx="256" cy="220" r="76" fill="url(#glow)" />
+  <circle cx="256" cy="220" r="48" fill="#ffffff" />
+  <!-- Gentle hill silhouette -->
+  <path d="M 60 410 Q 180 340 280 370 Q 380 400 452 380 L 452 452 L 60 452 Z" fill="#252446" opacity="0.4" />
+  <path d="M 60 430 Q 200 370 330 380 Q 400 385 452 400 L 452 452 L 60 452 Z" fill="#181533" opacity="0.65" />
+</svg>

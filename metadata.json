@@ -1,0 +1,6 @@
+{
+  "name": "Placid",
+  "description": "A calm, minimal mobile app for sitting still outside and noticing the world.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
